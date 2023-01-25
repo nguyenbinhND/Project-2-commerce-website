@@ -74,3 +74,26 @@
 .nav-items img {
     width: 30px;
 }
+
+.links-container {
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+}
+
+.link {
+    text-transform: capitalize;
+    /* Chữ đầu tiên của mỗi thành phần là chữ hoa. */
+    padding: 0 10px;
+    text-decoration: none;
+    margin: 0 5px;
+    color: #383838;
+    opacity: 0.5;
+    transform: .5s;
+}
+
+.link:hover {
+    opacity: 1;
+}
